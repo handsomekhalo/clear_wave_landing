@@ -1,4 +1,4 @@
-import Navbar from "./../components/landing/Navbar.js";
+import Navbar from "@/components/landing/Navbar.js";
 import HeroSection from "@/components/landing/HeroSection.js";
 import ProblemSection from "@/components/landing/ProblemSection.js";
 import PricingSection from "@/components/landing/PricingSection.js";
