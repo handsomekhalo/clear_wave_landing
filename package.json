@@ -1,12 +1,12 @@
 {
-  "name": "clearwavelandingpage",
+  "name": "clear-wave-website",
   "version": "0.1.0",
-  "private": true,
+    "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
