@@ -1,22 +1,32 @@
 import React from "react";
-// import Navbar from "@/components/landing/Navbar";
-// import HeroSection from "@/components/landing/HeroSection";
-// import ProblemSection from "@/components/landing/ProblemSection";
+import Navbar from "@/components/landing/Navbar";
+import HeroSection from "@/components/landing/HeroSection";
+import ProblemSection from "@/components/landing/ProblemSection";
+import PricingSection from "@/components/landing/PricingSection";
+import TestimonialsSection from "@/components/landing/TestimonialsSection";
+// import FeaturesSection from "@/components/landing/FeaturesSection";
 // import PricingSection from "@/components/landing/PricingSection";
 // import TestimonialsSection from "@/components/landing/TestimonialsSection";
+// import Footer from "@/components/landing/Footer";
+// import HeroSection from "@/components/landing/HeroSection";
+// import ProblemSection from "@/components/landing/ProblemSection";
+// import FeaturesSection from "@/components/landing/FeaturesSection";
+// import PricingSection from "@/components/landing/PricingSection";
+// import TestimonialsSection from "@/components/landing/TestimonialsSection";
+// import Footer from "@/components/landing/Footer";
 
 export default function Landing() {
   return (
     <div className="min-h-screen font-jakarta">
-       <h1>Clear Wave Works</h1>
-      {/* <Navbar />
+      <Navbar />
       <HeroSection />
-      <ProblemSection />  */}
+      <ProblemSection /> 
       {/* <FeaturesSection /> */}
-      {/* <PricingSection />
-      <TestimonialsSection /> */}
+      <PricingSection />
+      <TestimonialsSection />
       {/* <Footer />  */}
     </div>
   );
 }
+
 
